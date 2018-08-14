@@ -14,7 +14,8 @@ int main()
 	cout<<"Enter second distance";
 	cin>>d2.feet>>d3.inch;
 	d3=addDistance(d1,d2);
-	cout<<"The added distance"<<displayDistance(d3);
+	cout<<"The added distance";
+	displayDistance(d3);
 	return 0;
 }
 Distance addDistance(Distance dd1,Distance dd2)
@@ -32,5 +33,5 @@ Distance addDistance(Distance dd1,Distance dd2)
 }
 void displayDistance(Distance d)
 {
-	cout<<"Feet= "<<d.feet<<" inch = "<<d.inch
+	cout<<"Feet= "<<d.feet<<" inch = "<<d.inch;
 }
